@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <title>Currículo: Nicolly</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles_contatos.css">
+    <link rel="shortcut icon" href="imagens/contact.png" type="image/x-icon">
+</head>
+
+<body>
+
+   <header id="menu">
+
+    <img class="logo" src="imagens/nic.jpg" alt="Minha imagem">
+
+    <h1>Portfólio e Currículo</h1>
+
+    <h2>Nicolly Martins Filgueira</h2>
+
+   <nav> 
+   
+     <a class="links" href="index.html">Currículo</a>
+     <a class="links" href="portfolio.html">Portfólio</a>
+     <a class="links" href="contatos.html">Contatos </a>
+    </ul>
+   </nav>
+
+</header>
+
+<div class="info01">
+    <h3>Informações Pessoais</h3>
+    <ul>
+        <li>Rua Tietê 761</li>
+        <li>Vila Seabra</li>
+        <li>São Paulo-SP</li> 
+        <li>(11) 96602-1487</li>
+        <li>nicollymarty011@gmail.com</li>
+        <li>Brasileira e Solteira</li>
+    </ul>
+    </div>
+
+<main>
+<form action="">
+    <fieldset>
+        <legend>Informações do Cliente</legend>
+        <p>
+        <label>Nome: </label>
+        <input type="text" name="nome" id="cnome" size="50" maxlength="45" placeholder="Digite seu nome " required></p>
+        <p>
+            <label>Senha: </label>
+            <input type="password" name="senha" id="csenha" size="10" maxlength="8" placeholder="Digite sua senha " required></p>
+            <p>
+                <label>E-mail: </label>
+                <input type="email" name="email" id="cemail" size="50" maxlength="45" placeholder="Digite seu email " required>
+            </p>
+
+                <fieldset id="sexo">
+                    <legend>Gênero</legend>
+                    <input type="radio" name="masculino" id="masculino">
+                    <label>Masculino</label>
+                    <input type="radio" name="feminino" id="feminino" checked>
+                    <label>Feminino</label>
+                    <input type="radio" name="sexo" id="outro">
+                    <label>Outro</label>
+                </fieldset>
+                <p>
+                    <label>Data de Nascimento</label>
+                    <input type="date" name="nasc" id="cnasc">
+                </p>
+    
+
+    <fieldset id="endereco">
+        <legend>Endereço do Usuário</legend>
+        <p>
+            <label for="Logradouro"></label>
+            <input type="text" name="rua" id="crua" size="50" maxlength="50" placeholder="Rua, Av., Trav...">
+        </p>
+        <p>
+            <label>Número</label>
+            <input type="number" name="num" id="cnum" size="5" min="1" max="9999">
+        </p>
+        <p>
+            <label>Estado: </label>
+            <select name="estado" id="cestado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+            </select>
+        </p>
+        <p>
+            <label>Cidade</label>
+            <input type="text" name="cidade" id="ccid" size="20" maxlength="20" placeholder="Digite sua cidade.">
+        </p>
+    </fieldset>
+
+    <fieldset id="mensagem">
+        <legend>Mensagem do Usuário</legend>
+        <p>
+            <label>Mensagem:</label>
+        </p>
+        <p>
+            <textarea name="msg" id="cmsg" cols="50" rows="10" placeholder="Digite aqui sua mensagem" maxlength="1000"> </textarea>
+        </p>
+    </fieldset>
+
+    <input type="button" value="Enviar" class="btn" name="enviar">
+
+    <input type="reset" value="Limpar" class="btn" name="limpar">
+</fieldset>
+</form>
+   
+</main>
+
+<footer>
+    Nicolly Martins Filgueira, Portfólio - 2024
+</footer>
+
+</body>
+</html>
