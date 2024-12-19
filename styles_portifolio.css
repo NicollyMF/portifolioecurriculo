@@ -1,0 +1,26 @@
+.grafico {
+    display: flex;
+    margin: 1rem 1rem 1rem 21rem;
+    padding-left: 25rem;
+}
+
+.links2{
+    background-color: #fff;
+    margin-top: 0.6rem;
+    margin-right: 1rem;
+    margin-left: 21rem;
+    padding: 1rem 0.8rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.links2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
